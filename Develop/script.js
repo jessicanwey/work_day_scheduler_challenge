@@ -9,7 +9,7 @@ var timeBlockElement = $('.time-block');
 
 $(function () {
   //Display current date in the header
-  $('#currentDay').text(today.format('dddd, MMM DD YYYY'));
+  $('#currentDay').text("Today is: " + today.format('dddd, MMM DD YYYY'));
 
   //when save button is clicked, the activity for that time block is saved to local storage with the hour ID
   $('.saveBtn').click(function (){
